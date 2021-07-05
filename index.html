@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Planet</title>
+    <audio src="assets/music.mp3" autoplay></audio>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- MENU -->
+    <header class="main-menu">
+        <nav>
+            <img src="assets/logo.webp" alt="Logo do site">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- CAPA -->
+    <section class="capa">
+        <div class="container">
+            <div class="capa-text">
+                <div class="edge"></div>
+                <h1>Save The Planet</h1>
+                <button>Gettin Started</button>
+            </div>
+            <div class="capa-cards">
+                <div class="card-blue">
+                    <img src="assets/graph.png" alt="Gráficos de barras">
+                    <h3>See de Numbers</h3>
+                    <div class="edge-white" id="white"></div>
+                    <p>Statistics show that in brave, all essential resources for life on earth will be exhausted.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/calendar.png" alt="Love Yourselfe">
+                    <h3>Love Yourselfe</h3>
+                    <div class="edge"></div>
+                    <p>We really need everything that exists on our planet, because it is the only home we have to lead</p>
+                </div>
+                <div class="card">
+                    <img src="assets/heart.png" alt="Coração">
+                    <h3>Love The Life</h3>
+                    <div class="edge"></div>
+                    <p>All animal life on earth depends on a balanced and harmonious ecosystem, if not everyone suffers.</p>
+                </div>
+            </div>
+            <div class="box-down"></div>
+        </div>
+    </section>
+
+<!-- SERVICES -->
+    <section class="services">
+        <div class="container">
+            <div class="top-services">
+                <div class="edge"></div>
+                <h2>Services</h2>
+                <p>We work to you</p>
+            </div>
+
+            <div class="card-services">
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+            </div>
+
+            <div class="card-services">
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+            </div>
+
+            <div class="card-services">
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+
+                <div class="services-options">
+                    <h3>Social Media</h3>
+                    <img src="assets/right-arrow.png" alt="Seta para direita">
+                </div>
+            </div>
+
+            <div class="rsico-azul-empe">
+                <div class="edge-horizontal"></div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- SERVICES -->
+    <section class="works">
+        <div class="container">
+
+            <div class="top-works">
+                <div>
+                    <div class="edge"></div>
+                    <h2>Gallery</h2>
+                    <p>See some of our work</p>
+                </div>
+                <button>Gettin Started</button>
+            </div>
+
+            <div class="slide">
+                <div class="item-01"></div>
+                <div class="item-02"></div>
+                <div class="item-03"></div>
+                <div class="item-04"></div>
+                <div class="item-05"></div>
+                <div class="item-06"></div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.slide').cycle({
+                    timeout: 2000,
+                    fx: 'fade',
+                });
+            })
+        </script>
+
+        <div class="rsico-azul-empe">
+            <div class="edge-horizontal"></div>
+        </div>
+    </section>
+
+<!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+
+            <div class="top-about">
+                <div>
+                    <div class="edge"></div>
+                    <h2>About</h2>
+                    <p>Know more about us</p>
+                </div>
+                <p>
+                    Our goal is to transform the
+                    world into a better place, by
+                    bringing ecological awareness
+                    to people.
+                </p>
+            </div>
+
+            <div class="about-gallery">
+                <div class="gallery-01"></div>
+                <div class="gallery-02">
+                    <div class="img-top"></div>
+                    <div class="img-down"></div>
+                </div>
+            </div>
+
+            <div class="about-description">
+                <div class="desc">
+                    <h3>Who we are</h3>
+                    <p>
+                        Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit.
+                        Maxime et ipsum iure vitae neque
+                        rerum ea earum eos dolor minus.
+                    </p>
+                </div>
+                <div class="desc">
+                    <h3>Our philosophy</h3>
+                    <p>
+                        Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit.
+                        Maxime et ipsum iure vitae neque
+                        rerum ea earum eos dolor minus.
+                    </p>
+                </div>
+                <div class="desc">
+                    <h3>How we work</h3>
+                    <p>
+                        Lorem ipsum dolor sit,
+                        amet consectetur adipisicing elit.
+                        Maxime et ipsum iure vitae neque
+                        rerum ea earum eos dolor minus.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- CLIENTS -->
+    <section class="clients">
+        <div class="container">
+            <div class="testimony">
+                <div class="photo-client">
+                    <img src="assets/img-client.jpg" alt="Foto da cliente">
+                </div>
+                <div class="client-text">
+                    <div>
+                        <div class="edge"></div>
+                        <h2>Whats we clients sey</h2>
+                        <p>Know more about us</p>
+                    </div>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Assumenda amet quisquam 
+                        dicta temporibus culpa beatae veniam accusamus 
+                        excepturi sunt provident quae blanditiis, 
+                        cupiditate ex est alias accusantium voluptatibus 
+                        nostrum omnis corporis fugit, et in! Sequi ab optio 
+                        aliquam neque exercitationem deserunt, 
+                        expedita placeat, vero odio adipisci, esse totam 
+                        maiores repudiandae.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>By Luiz Eduardo</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #000000;
+}
+
+.container {
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.edge {
+    width: 50px;
+    height: 2px;
+    background: #2A28E3;
+}
+
+.edge-white {
+    width: 50px;
+    height: 2px;
+    background: #ffffff;
+}
+
+.edge-horizontal {
+    width: 2px;
+    height: 50px;
+    background: #2A28E3;
+}
+
+/* MENU */
+.main-menu {
+    width: 100%;
+    height: 3em;
+    background: transparent;
+    position: absolute;
+}
+
+.main-menu nav {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu nav img {
+    height: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-menu nav img:hover {
+    opacity: 0.7;
+}
+
+.main-menu nav ul {
+    display: flex;
+    width: 500px;
+    height: 3em;
+}
+
+.main-menu nav ul li {
+    list-style: none;
+}
+
+.main-menu nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.main-menu nav ul li a:hover {
+    color: #2A28E3;
+}
+
+/* CAPA */
+.capa {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/earth.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+
+.capa .container .capa-text {
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.capa .container .capa-text h1 {
+    font-size: 70px;
+    width: 400px;
+    color: #ffffff;
+}
+/* BOTÃO DA CAPA */
+.capa .container .capa-text button {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #2A28E3;
+    font-size: 18px;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.capa .container .capa-text button:hover {
+    border: 1px solid #ffffff;
+}
+
+
+
+.capa .container .capa-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    z-index: 2;
+    position: relative;
+}
+
+.capa .container .capa-cards .card-blue {
+    width: 350px;
+    height: 400px;
+    background: #2A28E3;
+    padding-left: 20px;
+}
+.capa .container .capa-cards .card-blue img {
+    margin-top: 70px;
+}
+.capa .container .capa-cards .card-blue h3 {
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.capa .container .capa-cards .card-blue p {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 300px;
+}
+.capa .container .capa-cards .card-blue #white {
+    padding-left: 20px;
+}
+
+.capa .container .capa-cards .card {
+    width: 350px;
+    height: 400px;
+    background: #1B1B1B;
+    padding-left: 20px;
+}
+.capa .container .capa-cards .card img {
+    margin-top: 70px;
+}
+.capa .container .capa-cards .card h3 {
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.capa .container .capa-cards .card p {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.box-down {
+    width: 370px;
+    height: 100px;
+    background: #2A28E3;
+    right: -20px;
+    position: relative;
+    float: right;
+    top: -80px;
+}
+
+/* SERVICES */
+.services {
+    width: 100%;
+    height: 100vh;
+    background: #101010;
+}
+
+.services .container .top-services {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    margin-bottom: 53px;
+}
+
+.services .container .top-services h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.services .container .top-services p {
+    font-size: 18px;
+    color: #2A28E3;
+}
+
+.services .container .card-services {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.services .container .card-services .services-options {
+    width: 400px;
+    height: 110px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1B1B1B;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.services .container .card-services .services-options:nth-child(3){
+    margin-right: 0px;
+}
+.services .container .card-services .services-options:hover {
+    background: #2A28E3;
+}
+.services .container .card-services h3 {
+    color: #ffffff;
+}
+
+.rsico-azul-empe {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* WORKS */
+
+.works {
+    width: 100%;
+    height: 100vh;
+    background: #101010;
+}
+
+.works .container .top-works {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.works .container .top-works div h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.works .container .top-works div p {
+    font-size: 18px;
+    color: #2A28E3;
+}
+
+.works .container .top-works button {
+    background: #101010;
+    color: #ffffff;
+    border: 1px solid #2A28E3;
+    font-size: 18px;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.works .container .top-works button:hover {
+    border: 1px solid #ffffff;
+}
+
+
+.works .container .slide {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.works .container .slide .item-01 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works .container .slide .item-02 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works .container .slide .item-03 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-03.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works .container .slide .item-04 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-04.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works .container .slide .item-05 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-05.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works .container .slide .item-06 {
+    width: 100%;
+    height: 500px;
+    background-image: url('../assets/slider-06.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ABOUT */
+.about {
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+}
+
+.about .container .top-about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.about .container .top-about div h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.about .container .top-about div p {
+    font-size: 18px;
+    color: #2A28E3;
+}
+
+.about .container .top-about p {
+    width: 600px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.about-gallery {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.about-gallery .gallery-01 {
+    flex: 2;
+    height: 500px;
+    margin-right: 20px;
+    background-image: url('../assets/img-about-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.about-gallery .gallery-01:hover { filter: grayscale(0); }
+
+.about-gallery .gallery-02 {
+    flex: 1;
+    height: 500px;
+}
+
+.about-gallery .gallery-02 .img-top {
+    flex: 1;
+    height: 240px;
+    margin-bottom: 20px;
+    background-image: url('../assets/img-about-02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.about-gallery .gallery-02 .img-top:hover { filter: grayscale(0); }
+
+.about-gallery .gallery-02 .img-down {
+    flex: 1;
+    height: 240px;
+    background-image: url('../assets/img-about-03.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about-gallery .gallery-02 .img-down:hover { filter: grayscale(0); }
+
+.about-description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-description .desc {
+    width: 350px;
+    height: 200px;
+}
+
+.about-description .desc h3 {
+    margin-top: 50px;
+    color: #2A28E3;
+    font-size: 25px;
+}
+
+.about-description .desc p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* CLIENTS */
+.clients {
+    width: 100%;
+    height: 100vh;
+    background: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients .container .testimony {
+    width: 100%;
+    display: flex;
+}
+/**/
+.clients .container .testimony .photo-client {
+    flex: 1;
+    height: 500px;
+}
+
+.clients .container .testimony .photo-client img {
+    height: 500px;
+}
+
+/**/
+.clients .container .testimony .client-text {
+    flex: 2;
+    height: 500px;
+}
+.clients .container .testimony .client-text div h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.clients .container .testimony .client-text div p {
+    width: 600px;
+    font-size: 18px;
+    color: #2A28E3;
+}
+.clients .container .testimony .client-text span {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #ffffff;
+}
